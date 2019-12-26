@@ -1,4 +1,4 @@
-<?php namespace Sinka\Sexybaby;
+<?php namespace SinKa\Sexybaby;
 
 use System\Classes\PluginBase;
 
