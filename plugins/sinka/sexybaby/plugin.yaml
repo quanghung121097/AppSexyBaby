@@ -4,3 +4,8 @@ plugin:
     author: SinKa
     icon: oc-icon-adjust
     homepage: ''
+navigation:
+    main-menu-item:
+        label: SexyBaby
+        url: /
+        icon: icon-briefcase
