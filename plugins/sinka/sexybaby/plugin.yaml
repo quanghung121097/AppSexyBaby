@@ -9,3 +9,8 @@ navigation:
         label: SexyBaby
         url: /
         icon: icon-briefcase
+        sideMenu:
+            side-menu-item:
+                label: User_vote
+                url: sinka/sexybaby/user_vote
+                icon: icon-user

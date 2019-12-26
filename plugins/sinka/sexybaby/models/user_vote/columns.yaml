@@ -1,0 +1,9 @@
+columns:
+    result:
+        label: 'Kết Quả'
+        type: text
+        searchable: true
+    vote_date:
+        label: 'Ngày ấn nút vote'
+        type: text
+        searchable: false
