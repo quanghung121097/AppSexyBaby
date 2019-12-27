@@ -1,5 +1,4 @@
 <?php namespace SinKa\Sexybaby\Models;
-
 use Model;
 
 /**
@@ -20,7 +19,12 @@ class User_vote extends Model
      * @var string The database table used by the model.
      */
     public $table = 'sinka_sexybaby_user_vote';
-
+    public $belongsTo = [
+        'user' => 'RainLab\User\Models\User'
+    ];
+    public $belongsToMany =[
+        'vote' => 'SinKa\Sexybaby\Models\Vote'
+    ];
     /**
      * @var array Validation rules
      */

@@ -34,7 +34,9 @@ class User extends UserBase
     public $belongsToMany = [
         'groups' => [UserGroup::class, 'table' => 'users_groups']
     ];
-
+    public $hasOne = [
+        'user_vote' => 'SinKa\Sexybaby\Models\User_vote'
+    ];
     public $attachOne = [
         'avatar' => \System\Models\File::class
     ];

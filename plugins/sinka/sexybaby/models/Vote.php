@@ -20,7 +20,9 @@ class Vote extends Model
      * @var string The database table used by the model.
      */
     public $table = 'sinka_sexybaby_vote';
-
+    public $belongsToMany =[
+        'user_vote' => 'SinKa\Sexybaby\Models\User_vote'
+    ];
     /**
      * @var array Validation rules
      */

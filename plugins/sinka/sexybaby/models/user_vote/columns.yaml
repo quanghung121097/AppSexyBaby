@@ -1,9 +1,12 @@
 columns:
     result:
         label: 'Kết Quả'
-        type: text
+        type: switch
         searchable: true
     vote_date:
         label: 'Ngày ấn nút vote'
         type: text
         searchable: false
+    user_id:
+        label: 'id người đi vote'
+        type: number
