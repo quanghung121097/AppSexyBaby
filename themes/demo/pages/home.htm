@@ -1,12 +1,15 @@
 title = "Demonstration"
 url = "/"
 layout = "default"
+is_hidden = 0
+
+[Vote]
 ==
 <div class="jumbotron">
     <div class="container">
         {% content "welcome.htm" %}
     </div>
-</div>
+</div>{% component 'Vote' %}
 
 <div class="container">
 
