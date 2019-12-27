@@ -6,4 +6,6 @@
 1.0.3:
     - 'Updated table sinka_sexybaby_vote'
     - builder_table_update_sinka_sexybaby_vote.php
-
+1.0.4:
+    - 'Created table sinka_sexybaby_user_vote'
+    - builder_table_create_sinka_sexybaby_user_vote.php
