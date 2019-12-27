@@ -14,4 +14,7 @@ navigation:
                 label: Vote
                 url: sinka/sexybaby/vote
                 icon: icon-star
-
+            side-menu-item2:
+                label: 'Menu Item'
+                url: sinka/sexybaby/user_vote
+                icon: icon-user
