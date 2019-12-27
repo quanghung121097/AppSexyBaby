@@ -7,5 +7,10 @@ plugin:
 navigation:
     main-menu-item:
         label: SexyBaby
-        url: /
+        url: sinka/sexybaby/vote
         icon: icon-briefcase
+        sideMenu:
+            side-menu-item:
+                label: Vote
+                url: sinka/sexybaby/vote
+                icon: icon-star

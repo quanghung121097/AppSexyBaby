@@ -1,0 +1,10 @@
+name: Vote
+modelClass: SinKa\Sexybaby\Models\Vote
+form: $/sinka/sexybaby/models/vote/fields.yaml
+defaultRedirect: sinka/sexybaby/vote
+create:
+    redirect: 'sinka/sexybaby/vote/update/:id'
+    redirectClose: sinka/sexybaby/vote
+update:
+    redirect: sinka/sexybaby/vote
+    redirectClose: sinka/sexybaby/vote

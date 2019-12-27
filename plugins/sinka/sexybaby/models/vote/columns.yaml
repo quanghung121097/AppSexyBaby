@@ -1,0 +1,24 @@
+columns:
+    id:
+        label: 'ID Vote'
+        type: number
+        searchable: true
+        sortable: true
+    id_user_1:
+        label: 'ID Người Chơi 1'
+        type: number
+    image_user_1:
+        label: 'ID Ảnh Người Chơi 1'
+        type: number
+    id_user_2:
+        label: 'ID Người Chơi 2'
+        type: number
+    image_user_2:
+        label: 'ID Ảnh Người Chơi 2'
+        type: number
+    start_date:
+        label: 'Ngày Bắt Đầu '
+        type: datetime
+    end_date:
+        label: 'Ngày Kết Thúc'
+        type: date

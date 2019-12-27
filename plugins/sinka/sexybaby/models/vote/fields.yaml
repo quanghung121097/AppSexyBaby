@@ -1,0 +1,27 @@
+fields:
+    id_user_1:
+        label: 'ID Người Chơi 1'
+        span: auto
+        type: number
+    image_user_1:
+        label: 'ID Ảnh Người Chơi 1'
+        span: auto
+        type: number
+    id_user_2:
+        label: 'ID Người Chơi 2'
+        span: auto
+        type: number
+    image_user_2:
+        label: 'ID Ảnh Người Chơi 2'
+        span: auto
+        type: number
+    start_date:
+        label: 'Ngày Bắt Đầu'
+        mode: datetime
+        span: auto
+        type: datepicker
+    end_date:
+        label: 'Ngày Kết Thúc'
+        mode: datetime
+        span: auto
+        type: datepicker

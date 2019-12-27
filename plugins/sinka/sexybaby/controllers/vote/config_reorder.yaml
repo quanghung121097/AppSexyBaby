@@ -1,0 +1,4 @@
+title: Vote
+modelClass: SinKa\Sexybaby\Models\Vote
+toolbar:
+    buttons: reorder_toolbar
