@@ -39,9 +39,7 @@
         "october/backend": "~1.0",
         "october/cms": "~1.0",
         "laravel/framework": "^5.5.40",
-        "wikimedia/composer-merge-plugin": "dev-master",
-        "simple-html-dom/simple-html-dom": "^1.5",
-        "sunra/php-simple-html-dom-parser": "^1.5"
+        "wikimedia/composer-merge-plugin": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.7",
