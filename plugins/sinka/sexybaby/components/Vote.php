@@ -18,5 +18,4 @@ class Vote extends ComponentBase
         return [];
     }
 
-
 }
