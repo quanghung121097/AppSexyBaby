@@ -27,5 +27,13 @@ class Vote extends Model
      * @var array Validation rules
      */
     public $rules = [
+        'id_user_1' => 'required',
+        'image_user_1' => 'required',
+        'id_user_2' => 'required',
+        'start_date' => 'required',
+        'end_date' => 'required',
+    ];
+    public $customMessages = [
+        'required' => ':attribute không được để trống',
     ];
 }
